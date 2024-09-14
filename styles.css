@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  font-size: 1.6rem;
+  font-family: "Roboto", system-ui;
+  color: #1e293b;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 1.6rem;
+}
+
+.logo {
+  font-size: 3.6rem;
+}
+ul {
+  display: flex;
+  gap: 1.2rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+#toggle {
+  font-size: 2.6rem;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.image {
+  font-size: 9.8rem;
+}
+h1 {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1.8rem;
+}
+
+.btn {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  padding: 0.8rem 1.6rem;
+  background-color: #fff;
+}
+.dark-mode {
+  background-color: #1e293b;
+  color: white;
+}
